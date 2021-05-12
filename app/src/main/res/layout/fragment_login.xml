@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".multile_frame.Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/mail"
+                android:hint="Enter Mail"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/login_shape"
+                android:padding="10dp"
+                android:textSize="@dimen/pro_size"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/password"
+                android:hint="Enter password"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/login_shape"
+                android:padding="10dp"
+                android:textSize="@dimen/pro_size"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:background="@drawable/button_c"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_margin="20dp"
+                android:text="Login"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <Button
+                android:id="@+id/logout"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:background="@drawable/button_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_margin="20dp"
+                android:text="Logout"></Button>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

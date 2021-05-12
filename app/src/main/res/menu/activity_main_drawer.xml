@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_like"
+            android:title="Like News" />
+        <item
+            android:id="@+id/nav_dislike"
+            android:title="Dislike News" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About!" />
+        <item
+            android:id="@+id/nav_term"
+            android:title="Term &amp; Condition" />
+        <item
+            android:id="@+id/nav_login"
+            android:title="Login/Logout" />
+    </group>
+</menu>
