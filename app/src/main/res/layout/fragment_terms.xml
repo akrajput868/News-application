@@ -9,6 +9,6 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Your users will benefit by having an explanation of their rights, rules they must follow, and what they can expect when using your app." />
 
 </FrameLayout>
